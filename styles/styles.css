@@ -1,0 +1,115 @@
+/* --------------Fonts-------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Oswald&family=Playfair+Display&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* -------------------
+    Common Styles
+    --------------------- */
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.primary-title {
+    color: #131313;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 0px;
+}
+
+.primary-description {
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0px;
+}
+
+.btn-primary {
+    color: #FFF;
+    background: #FF900E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* -------------------
+    Header section Styles
+    --------------------- */
+.header-section {
+    background-color: #FF900E1A;
+}
+
+.navigation-var {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-var ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+.navigation-var li {
+    list-style: none;
+
+}
+
+.navigation-var li a {
+    color: #424242;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+    padding: 20px 0px;
+    cursor: pointer;
+
+}
+
+.navigation-var li a:hover {
+    color: #FF900E;
+}
+
+.banner {
+    width: 48%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-images{
+    margin-bottom: 20px;
+}
