@@ -1,6 +1,9 @@
 /* --------------Fonts-------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans&family=Oswald&family=Playfair+Display&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
 
+/* -------------------
+    basic Styles
+    --------------------- */
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +27,12 @@ img {
 
 }
 
+.container-2 {
+    width: 70%;
+    margin: 65px auto;
+
+}
+
 .primary-title {
     color: #131313;
     font-size: 45px;
@@ -33,32 +42,41 @@ img {
     padding: 20px 0px;
 }
 
+.primary-sub-title {
+    color: #131313;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 .primary-description {
     color: #727272;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .btn-primary {
     color: #FFF;
     background: #FF900E;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 550;
     line-height: normal;
     text-align: center;
-    padding: 20px 25px;
-    margin-bottom: 20px;
+    padding: 18px 22px;
+    margin: 15px auto;
     border: none;
     border-radius: 8px;
     cursor: pointer;
 }
 
 /* -------------------
-    Header section Styles
+    Header section 
+    navigation-var Styles
     --------------------- */
 .header-section {
     background-color: #FF900E1A;
@@ -70,18 +88,18 @@ img {
     align-items: center;
 }
 
-.navigation-var ul {
+.menu ul{
     display: flex;
     gap: 50px;
 
 }
 
-.navigation-var li {
+.menu li {
     list-style: none;
 
 }
 
-.navigation-var li a {
+.menu li a {
     color: #424242;
     font-size: 18px;
     font-style: normal;
@@ -93,10 +111,14 @@ img {
 
 }
 
-.navigation-var li a:hover {
+.menu li a:hover {
     color: #FF900E;
 }
 
+/* -------------------
+    Header section
+    banner Styles
+    --------------------- */
 .banner {
     width: 48%;
     text-align: center;
@@ -109,7 +131,150 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 15px;
 }
-.banner-images{
-    margin-bottom: 20px;
+
+.banner-image {
+    padding-bottom: 30px;
 }
+
+/* -------------------
+    Main section 
+    features Styles
+    --------------------- */
+.features-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.features-contain {
+    width: 55%;
+}
+
+.feature-title {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.words-1 {
+    color: #727272;
+}
+
+.words-2 {
+    color: #131313;
+    font-weight: 700;
+
+}
+
+.words-3 {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+/* -------------------
+    Main section 
+    architect Styles
+    --------------------- */
+.architect {
+    margin: 70px auto;
+}
+
+.architect-container {
+    display: flex;
+    gap: 140px;
+}
+
+.architect-contain-1 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.border-design{
+    padding-left: 13px;
+    border-left: 4px solid #FF900E;
+}
+.architect-title{
+    color: #131313;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.design-contain {
+    background: #FFF;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.architect-contain-2 {
+    position: relative;
+}
+
+.experience {
+    position: absolute;
+    background: #FF900E;
+    text-align: center;
+    bottom: 30px;
+    left: -50px;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.experience-year {
+    color: #FFF;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.exp-word {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/* -------------------
+    Main section 
+    features Styles
+    --------------------- */
+/* -------------------
+    Main section 
+    features Styles
+    --------------------- */
+/* -------------------
+    Main section 
+    features Styles
+    --------------------- */
+/* -------------------
+    Main section 
+    features Styles
+    --------------------- */
+/* -------------------
+    Main section 
+    features Styles
+    --------------------- */
+/* -------------------
+    Main section 
+    features Styles
+    --------------------- */
