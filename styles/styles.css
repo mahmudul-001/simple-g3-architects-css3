@@ -88,7 +88,7 @@ img {
     align-items: center;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     gap: 50px;
 
@@ -203,11 +203,12 @@ img {
     gap: 20px;
 }
 
-.border-design{
+.border-design {
     padding-left: 13px;
     border-left: 4px solid #FF900E;
 }
-.architect-title{
+
+.architect-title {
     color: #131313;
     font-size: 40px;
     font-style: normal;
@@ -256,8 +257,27 @@ img {
 
 /* -------------------
     Main section 
-    features Styles
+    facts Styles
     --------------------- */
+.facts{
+    width: 80%;
+    margin: 50px auto;
+}
+.facts-contains{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}    
+.facts-items {
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+.facts-items img{
+    padding-bottom: 10px;
+}
+
 /* -------------------
     Main section 
     features Styles
